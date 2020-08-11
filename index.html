@@ -10,19 +10,23 @@
     <!--HEADER-->
 <header>
     <div class="header">
-        <div class="header__menu">
-            <a href="#" class="menu__icon"><img class="shift" src="/img/burger.svg" alt="menu image"></a>
-            <a href="#" class="header__logo"><img class="shift" src="/img/logo.png" alt="company logo"></a>
+        <div class="container1">
+            <img class="header__burger" src="img/burger.svg" alt="menu image">
+            <div class="header__logo">
+                <img class="header__logo" src="img/logo.png" alt="company logo">
+            </div> 
         </div>
-        <nav>
-            <ul class="header__nav">
-                <li class="call"><a href=""><img src="/img/call.svg" alt="phone image"></a></li>
-                <li class="chat"><a href=""><img src="/img/chat.svg" alt="message image"></a></li>
-                <li class="profile"><a href=""><img src="/img/profile.svg" alt="profile image"></a></li>
-                <li class="divided"><a href=""><img src="/img/repair.svg" alt="tools image"></a></li>
-                <li class="checkstatus"><a href=""><img src="/img/checkstatus.svg" alt="search image"></a></li>
-            </ul>
-        </nav>
+        <div class="container2">
+            <nav>
+                <ul class="header__nav">
+                    <li class="call"><a href=""><img src="img/call.svg" alt="phone image"></a></li>
+                    <li class="chat"><a href=""><img src="img/chat.svg" alt="message image"></a></li>
+                    <li class="profile"><a href=""><img src="img/profile.svg" alt="profile image"></a></li>
+                    <li class="divided repair"><a href=""><img src="img/repair.svg" alt="tools image"></a></li>
+                    <li class="checkstatus"><a href=""><img src="img/checkstatus.svg" alt="search image"></a></li>
+                </ul>
+            </nav>
+        </div>
   
     </div>
 </header>
@@ -30,7 +34,14 @@
     <!--THE MAIN CONTENT-->
 <main>
     <div class="main">
-        <h1>Услуги и сервисы</h1>
+        <h1 class="h1">Услуги и сервисы</h1>
+        <div class="container__main">
+            <h1>Услуги и сервисы</h1>
+            <div class="container3__hidden">
+                <a href="#" class="repair__hidden"><span class="repair__hidden-text">Оставить заявку</span><img src="img/repair.svg" alt=""></a>
+                <a href="#" class="checkstatus__hidden"><span class="repair__hidden-text">Статус ремонта</span><img src="img/checkstatus.svg" alt=""></a>
+            </div>
+        </div>
         <nav>
             <ul class="main__nav">
                 <li class="main__nav_selected"><a href="">Ремонтируемые устройства</a></li>
@@ -41,13 +52,13 @@
         </nav>
         <div class="main__column">
             <div class="main__column-text">
-                <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br>
+                <p class="main__column-text1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br><br>
             
-                    <p class="p_hidden">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+                    <p class="p_hidden"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
                     <h3>Читать далее</h3>
             </div>
             <div class="main__column-picture">
-                <img class="company-logo" src="/img/item.png" alt="the company logo">
+                <img class="company-logo" src="img/item.png" alt="the company logo">
         </div>
         </div>
     </div>
